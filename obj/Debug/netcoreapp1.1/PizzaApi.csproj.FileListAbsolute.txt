@@ -1,8 +1,0 @@
-/Users/mbrown/Development/PizzaApi/bin/Debug/netcoreapp1.1/PizzaApi.deps.json
-/Users/mbrown/Development/PizzaApi/bin/Debug/netcoreapp1.1/PizzaApi.runtimeconfig.json
-/Users/mbrown/Development/PizzaApi/bin/Debug/netcoreapp1.1/PizzaApi.runtimeconfig.dev.json
-/Users/mbrown/Development/PizzaApi/bin/Debug/netcoreapp1.1/PizzaApi.dll
-/Users/mbrown/Development/PizzaApi/bin/Debug/netcoreapp1.1/PizzaApi.pdb
-/Users/mbrown/Development/PizzaApi/obj/Debug/netcoreapp1.1/PizzaApi.AssemblyInfo.cs
-/Users/mbrown/Development/PizzaApi/obj/Debug/netcoreapp1.1/PizzaApi.dll
-/Users/mbrown/Development/PizzaApi/obj/Debug/netcoreapp1.1/PizzaApi.pdb
