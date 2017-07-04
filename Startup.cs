@@ -33,6 +33,8 @@ namespace PizzaApi
             services.AddDbContext<PizzaContext>(opt => opt.UseInMemoryDatabase());
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IPizzaRepository, PizzaRepository>();
+
+            services.AddCors();
             // Add framework services.
             services.AddMvc();
         }
@@ -42,6 +44,9 @@ namespace PizzaApi
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+
+            app.UseCors(builder =>
+                builder.WithOrigins("http://localhost:3000").AllowAnyHeader());
 
             app.UseMvc();
         }
