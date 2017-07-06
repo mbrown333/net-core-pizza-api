@@ -46,7 +46,10 @@ namespace PizzaApi
             loggerFactory.AddDebug();
 
             app.UseCors(builder =>
-                builder.WithOrigins("http://localhost:3000").AllowAnyHeader());
+                builder.AllowAnyHeader()
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+            );
 
             app.UseMvc();
         }
